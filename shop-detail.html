@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Magic Picnic</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
+    <!-- Bootstrap Select-->
+    <link rel="stylesheet" href="vendor/bootstrap-select/css/bootstrap-select.min.css">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+   
+
+</head>
+
+<body>
+    <div id="all">
+        <!-- Top bar-->
+        <!-- <div class="top-bar">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6 d-md-block d-none">
+              <p></p>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex justify-content-md-end justify-content-between">
+                <ul class="list-inline contact-info d-block d-md-none">
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-phone"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+                <div class="login"><a href="#" data-toggle="modal" data-target="#login-modal" class="login-btn"><i class="fa fa-sign-in"></i><span class="d-none d-md-inline-block">Sign In</span></a><a href="customer-register.html" class="signup-btn"><i class="fa fa-user"></i><span class="d-none d-md-inline-block">Sign Up</span></a></div>
+                <ul class="social-custom list-inline">
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+        <!-- Top bar end-->
+        <!-- Login Modal-->
+        <!-- <div id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-modalLabel" aria-hidden="true" class="modal fade">
+        <div role="document" class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 id="login-modalLabel" class="modal-title">Customer Login</h4>
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
+              <form action="customer-orders.html" method="get">
+                <div class="form-group">
+                  <input id="email_modal" type="text" placeholder="email" class="form-control">
+                </div>
+                <div class="form-group">
+                  <input id="password_modal" type="password" placeholder="password" class="form-control">
+                </div>
+                <p class="text-center">
+                  <button class="btn btn-template-outlined"><i class="fa fa-sign-in"></i> Log in</button>
+                </p>
+              </form>
+              <p class="text-center text-muted">Not registered yet?</p>
+              <p class="text-center text-muted"><a href="customer-register.html"><strong>Register now</strong></a>! It is easy and done in 1 minute and gives you access to special discounts and much more!</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+        <!-- Login modal end-->
+        <!-- Navbar Start-->
+        <header class="nav-holder make-sticky">
+            <div id="navbar" role="navigation" class="navbar navbar-expand-lg">
+                <div class="container"><a href="index.html" class="navbar-brand home">Magic Picnic</a>
+                    <button type="button" data-toggle="collapse" data-target="#navigation" class="navbar-toggler btn-template-outlined"><span class="sr-only">Toggle navigation</span><i class="fa fa-align-justify"></i></button>
+                    <div id="navigation" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item dropdown active"><a href="index.html">Home <b class="caret"></b></a>
+
+                            </li>
+                            <li class="nav-item dropdown menu-large"><a href="index2.html">Picnic Packages<b class="caret"></b></a>
+
+                            </li>
+                            <li class="nav-item dropdown menu-large"><a href="portfolio-3.html">Gallery <b class="caret"></b></a>
+
+                            </li>
+                            <!-- ========== FULL WIDTH MEGAMENU ==================-->
+                            <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle">View All <b class="caret"></b></a>
+                                <ul class="dropdown-menu megamenu">
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-md-6 col-lg-3">
+                                                <h5>Home</h5>
+                                                <ul class="list-unstyled mb-3">
+                                                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                                                    <li class="nav-item"><a href="index2.html" class="nav-link">Picnic Packages</a></li>
+
+                                                </ul>
+                                                <!-- <h5>About</h5>
+                                              <ul class="list-unstyled mb-3">
+                                                  <li class="nav-item"><a href="about.html" class="nav-link">About us</a></li>
+                                                  <li class="nav-item"><a href="team.html" class="nav-link">Our team</a></li>
+                                                  <li class="nav-item"><a href="team-member.html" class="nav-link">Team member</a></li>
+                                                  <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                                              </ul> -->
+                                                <!-- <h5>Marketing</h5>
+                                              <ul class="list-unstyled mb-3">
+                                                  <li class="nav-item"><a href="packages.html" class="nav-link">Packages</a></li>
+                                              </ul> -->
+                                            </div>
+                                            <div class="col-md-6 col-lg-3">
+                                                <h5>Gallery</h5>
+                                                <ul class="list-unstyled mb-3">
+
+                                                    <li class="nav-item"><a href="portfolio-3.html" class="nav-link">Gallery</a></li>
+                                                    <!-- <li class="nav-item"><a href="portfolio-no-space-3.html" class="nav-link">3 columns with negative space</a></li>
+                                                  <li class="nav-item"><a href="portfolio-4.html" class="nav-link">4 columns</a></li>
+                                                  <li class="nav-item"><a href="portfolio-no-space-4.html" class="nav-link">4 columns with negative space</a></li>
+                                                  <li class="nav-item"><a href="portfolio-detail.html" class="nav-link">Portfolio - detail</a></li>
+                                                  <li class="nav-item"><a href="portfolio-detail-2.html" class="nav-link">Portfolio - detail 2</a></li> -->
+                                                </ul>
+                                                <!-- <h5>User pages</h5>
+                                              <ul class="list-unstyled mb-3">
+                                                  <li class="nav-item"><a href="customer-register.html" class="nav-link">Register / login</a></li>
+                                                  <li class="nav-item"><a href="customer-orders.html" class="nav-link">Orders history</a></li>
+                                                  <li class="nav-item"><a href="customer-order.html" class="nav-link">Order history detail</a></li>
+                                                  <li class="nav-item"><a href="customer-wishlist.html" class="nav-link">Wishlist</a></li>
+                                                  <li class="nav-item"><a href="customer-account.html" class="nav-link">Customer account / change password</a></li>
+                                              </ul> -->
+                                            </div>
+                                            <div class="col-md-6 col-lg-3">
+                                                <h5>Shop</h5>
+                                                <ul class="list-unstyled mb-3">
+                                                    <li class="nav-item"><a href="shop-detail.html" class="nav-link">Basic Package Details</a></li>
+                                                    <li class="nav-item"><a href="shop-category.html" class="nav-link">Premium Package Details</a></li>
+                                                    <li class="nav-item"><a href="shop-category-left.html" class="nav-link">Ultimate Package Details</a></li>
+
+
+                                                </ul>
+                                                <h5>Cart</h5>
+                                                <ul class="list-unstyled mb-3">
+                                                    <li class="nav-item"><a href="shop-basket.html" class="nav-link">Shopping cart</a></li>
+                                                    <li class="nav-item"><a href="shop-checkout1.html" class="nav-link">Address</a></li>
+                                                    <li class="nav-item"><a href="shop-checkout2.html" class="nav-link">Date</a></li>
+                                                    <li class="nav-item"><a href="shop-checkout3.html" class="nav-link">Payment</a></li>
+                                                    <li class="nav-item"><a href="shop-checkout4.html" class="nav-link">Place Order</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6 col-lg-3">
+                                                <h5>Contact</h5>
+                                                <ul class="list-unstyled mb-3">
+                                                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+
+                                                </ul>
+                                                <h5>FAQs</h5>
+                                                <ul class="list-unstyled mb-3">
+
+                                                    <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
+
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- ========== FULL WIDTH MEGAMENU END ==================-->
+                            <!-- ========== Contact dropdown ==================-->
+                            <li class="nav-item dropdown"><a href="contact.html">Contact <b class="caret"></b></a>
+
+                            </li>
+                            <!-- ========== Contact dropdown end ==================-->
+                        </ul>
+                    </div>
+                    <div id="search" class="collapse clearfix">
+                        <form role="search" class="navbar-form">
+                            <div class="input-group">
+                                <input type="text" placeholder="Search" class="form-control"><span class="input-group-btn">
+            <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Navbar End-->
+
+        <div id="heading-breadcrumbs">
+            <div class="container">
+                <div class="row d-flex align-items-center flex-wrap">
+                    <div class="col-md-7">
+                        <h1 class="h2">Picnic Package Details</h1>
+                    </div>
+                    <div class="col-md-5">
+                        <ul class="breadcrumb d-flex justify-content-end">
+                            <li class="breadcrumb-item">Basic Package</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div class="container">
+                <div class="row bar">
+                    <!-- LEFT COLUMN _________________________________________________________-->
+                    <div class="col-lg-9">
+                        <p class="lead">The Basic Package</p>
+                        <p class="goToDescription"></p>
+                        <div id="productMain" class="row">
+                            <div class="col-sm-6">
+                                <div data-slider-id="1" class="owl-carousel shop-detail-carousel">
+                                    <div> <img src="img/zulypic3.jpeg" alt="" class="img-fluid"></div>
+                                    <div> <img src="img/beach8.png" alt="" class="img-fluid"></div>
+                                    <div> <img src="img/wine.jpeg" alt="" class="img-fluid"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="box">
+                                    <form>
+                                        <div class="sizes">
+                                            <h3>Guests:</h3>
+                                            <select class="bs-select">
+                            <option value="default">Select</option>
+                          <option value="two">2</option>
+                          <option value="three">3</option>
+                          <option value="four">4</option>
+                          <option value="five">5</option>
+                          <option value="six">6</option>
+                          <option value="seven">7</option>
+                          <option value="eight">8</option>
+                          <option value="nine">9</option>
+                          <option value="ten">10</option>
+                        </select>
+
+
+                                            <h3>Extra Hour:</h3>
+                                            <select class="bs-select">
+                        <option value="default">Select Extra Hour</option>
+                        <option value="one">1</option>
+                      <option value="two">2</option>
+                      <option value="three">3</option>
+                      <option value="four">4</option>
+                    </select>
+                                        </div>
+                                </div>
+                                <p class="price">$</p>
+                                <p class="text-center">
+                                    <button type="submit" class="btn btn-template-outlined"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+
+                                </p>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="details" class="box mb-4 mt-4">
+                        <p></p>
+                        <h4>Picnic details</h4>
+                        <h4>From $350</h4>
+                        <p>Includes</p>
+
+                        <ul>
+                            <li>Set up and cleanup of picnic</li>
+                            <li>Silverware</li>
+                            <li>Glassware</li>
+                            <li>Dinnerware</li>
+                            <li>Flower arrangements </li>
+                            <li>Decorations</li>
+                            <li>Bluetooth Speaker </li>
+                            <li>Bottled water and ice</li>
+                            <li>Pillows</li>
+                            <li>Carpet</li>
+                            <li>Cheeseboard platter</li>
+                            <li>Bread box </li>
+                        </ul>
+                        <h4>Picnic base price's are for two hours only. You can add additional hours to your picnic when selecting a packages. Each additional hour is $50.</h4>
+                        <h4>FAQs</h4>
+                        <ul>
+                            <h4>Bad Weather</h4>
+                            <li>If the weather takes a turn for the worst and we need to postpone, we will allow you 3 months to pick another date.</li>
+                        </ul>
+                        <ul>
+                            <h4>Cancellation</h4>
+                            <li>If you need to cancel your event, you will need to let us know 72-hours ahead of the event to receive a full refund.</li>
+                            <li>If you need to cancel within the 72-hour window leading up to the event, we will refund you 50% of your purchase price.</li>
+                        </ul>
+                        <ul>
+                            <h4>Location</h4>
+                            <li>We will email you different locations that we offer but if you have some place in mind, we can make it happen. </li>
+                            <li>Extra fees will be applied if the location is outside of Miami. </li>
+                        </ul>
+                        <ul>
+                            <h4>Damage</h4>
+                            <li>If there is any damage to our equipment, our team will be notified and the credit card on file will be charged.</li>
+
+                        </ul>
+                        <ul>
+                            <h4>Booking in advance</h4>
+                            <li>We require a 72-hour notice to get your picnic prepared. Please call us or send us an email if you would like to book a picnic within the 72-hour required notification window.</li>
+
+                        </ul>
+                        <ul>
+                            <h4>Extra guests</h4>
+                            <li>There is an extra charge of $45 per person. </li>
+                        </ul>
+
+                        <blockquote class="blockquote">
+                            <p class="mb-0"><em>ADD-ONS Available Below</em></p>
+                        </blockquote>
+                    </div>
+                    <!-- <div id="product-social" class="box social text-center mb-5 mt-5">
+                <h4 class="heading-light">Show it to your friends</h4>
+                <ul class="social list-inline">
+                  <li class="list-inline-item"><a href="#" data-animate-hover="pulse" class="external facebook"><i class="fa fa-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#" data-animate-hover="pulse" class="external gplus"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="list-inline-item"><a href="#" data-animate-hover="pulse" class="external twitter"><i class="fa fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#" data-animate-hover="pulse" class="email"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+              </div> -->
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box text-uppercase mt-0 mb-small">
+                                <h3>ADD-ONS You may like</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="product">
+                                <div class="image">
+                                    <a href="#"><img src="img/sweets2.jpeg" alt="" class="img-fluid image1"></a>
+                                </div>
+                                <div class="text">
+                                    <h3 class="h5"><a href="shop-detail.html">Small</a></h3>
+                                    <p class="price">$20</p>
+                                    <button type="submit" class="btn btn-template-outlined"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="product">
+                                <div class="image">
+                                    <a href="#"><img src="img/sweets2.jpeg" alt="" class="img-fluid image1"></a>
+                                </div>
+                                <div class="text">
+                                    <h3 class="h5"><a href="shop-detail.html">Medium</a></h3>
+                                    <p class="price">$35</p>
+                                    <button type="submit" class="btn btn-template-outlined"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="product">
+                                <div class="image">
+                                    <a href="#"><img src="img/sweets2.jpeg" alt="" class="img-fluid image1"></a>
+                                </div>
+                                <div class="text">
+                                    <h3 class="h5"><a href="shop-detail.html">Large</a></h3>
+                                    <p class="price">$80</p>
+                                    <button type="submit" class="btn btn-template-outlined"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="row">
+                <div class="col-lg-3 col-md-6">
+                  <div class="box text-uppercase mt-0 mb-small">
+                    <h3>Products viewed recently</h3>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="product">
+                    <div class="image"><a href="#"><img src="img/product3.jpg" alt="" class="img-fluid image1"></a></div>
+                    <div class="text">
+                      <h3 class="h5"><a href="shop-detail.html">Fur coat</a></h3>
+                      <p class="price">$143</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="product">
+                    <div class="image"><a href="#"><img src="img/product1.jpg" alt="" class="img-fluid image1"></a></div>
+                    <div class="text">
+                      <h3 class="h5"><a href="shop-detail.html">Fur coat</a></h3>
+                      <p class="price">$143</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="product">
+                    <div class="image"><a href="#"><img src="img/product2.jpg" alt="" class="img-fluid image1"></a></div>
+                    <div class="text">
+                      <h3 class="h5"><a href="shop-detail.html">Fur coat</a></h3>
+                      <p class="price">$143</p>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+                </div>
+                <div class="col-lg-3">
+                    <!-- MENUS AND FILTERS-->
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- GET IT-->
+    <div class="get-it">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 text-center p-3">
+                    <h3></h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h4 class="h6"></h4>
+                    <p></p>
+                    <!-- <hr> -->
+                    <h4 class="h6"></h4>
+                    <!-- <form>
+                    <div class="input-group">
+                      <input type="text" class="form-control">
+                      <div class="input-group-append">
+                        <button type="button" class="btn btn-secondary"><i class="fa fa-send"></i></button>
+                      </div>
+                    </div>
+                  </form> -->
+                    <!-- <hr class="d-block d-lg-none"> -->
+                </div>
+
+                <div class="col-lg-3">
+                    <h4 class="h6">Contact</h4>
+                    <p class="text-uppercase"><strong>Got questions we got answers</strong></p><a href="contact.html" class="btn btn-template-main">Go to contact page</a>
+                    <!-- <hr class="d-block d-lg-none"> -->
+                </div>
+                <div class="col-lg-3">
+                    <ul class="list-inline photo-stream">
+                        <li class="list-inline-item">
+                            <a href="#"><img src="img/zulypic3.jpeg" alt="..." class="img-fluid"></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"><img src="img/welcome.jpeg" alt="..." class="img-fluid"></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"><img src="img/table.jpeg" alt="..." class="img-fluid"></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"><img src="img/zulypic4.jpeg" alt="..." class="img-fluid"></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"><img src="img/wine.jpeg" alt="..." class="img-fluid"></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"><img src="img/picnictable.jpeg" alt="..." class="img-fluid"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyrights">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 text-center-md">
+                        <p>&copy; 2021. Magic Picnic Creations</p>
+                    </div>
+                    <div class="col-lg-8 text-right text-center-md">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <!-- Javascript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js">
+    </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js">
+    </script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js">
+    </script>
+    <script src="vendor/jquery.counterup/jquery.counterup.min.js">
+    </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="vendor/jquery.scrollto/jquery.scrollTo.min.js"></script>
+    <script src="js/front.js"></script>
+</body>
+
+</html>
