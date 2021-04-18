@@ -103,14 +103,14 @@
                             <li class="nav-item dropdown active"><a href="index.html">Home <b class="caret"></b></a>
 
                             </li>
-                            <li class="nav-item dropdown menu-large"><a href="index2.html">Picnic Packages<b class="caret"></b></a>
+                            <!-- <li class="nav-item dropdown menu-large"><a href="index2.html">Picnic Packages<b class="caret"></b></a> -->
 
                             </li>
                             <li class="nav-item dropdown menu-large"><a href="portfolio-3.html">Gallery <b class="caret"></b></a>
 
                             </li>
                             <!-- ========== FULL WIDTH MEGAMENU ==================-->
-                            <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle">View All <b class="caret"></b></a>
+                            <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle">View Packages <b class="caret"></b></a>
                                 <ul class="dropdown-menu megamenu">
                                     <li>
                                         <div class="row">
@@ -118,7 +118,7 @@
                                                 <h5>Home</h5>
                                                 <ul class="list-unstyled mb-3">
                                                     <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                                                    <li class="nav-item"><a href="index2.html" class="nav-link">Picnic Packages</a></li>
+                                                    <!-- <li class="nav-item"><a href="index2.html" class="nav-link">Picnic Packages</a></li> -->
 
                                                 </ul>
                                                 <!-- <h5>About</h5>
@@ -154,22 +154,22 @@
                                               </ul> -->
                                             </div>
                                             <div class="col-md-6 col-lg-3">
-                                                <h5>Shop</h5>
+                                                <h5>Picnic Packages</h5>
                                                 <ul class="list-unstyled mb-3">
-                                                    <li class="nav-item"><a href="shop-detail.html" class="nav-link">Basic Package Details</a></li>
-                                                    <li class="nav-item"><a href="shop-category.html" class="nav-link">Premium Package Details</a></li>
-                                                    <li class="nav-item"><a href="shop-category-left.html" class="nav-link">Ultimate Package Details</a></li>
+                                                    <li class="nav-item"><a href="shop-detail.html" class="nav-link">Magic Daydream Package </a></li>
+                                                    <li class="nav-item"><a href="shop-category.html" class="nav-link">Bohemian Dream Package </a></li>
+                                                    <!-- <li class="nav-item"><a href="shop-category-left.html" class="nav-link">Ultimate Package Details</a></li> -->
 
 
                                                 </ul>
-                                                <h5>Cart</h5>
+                                                <!-- <h5>Cart</h5>
                                                 <ul class="list-unstyled mb-3">
                                                     <li class="nav-item"><a href="shop-basket.html" class="nav-link">Shopping cart</a></li>
                                                     <li class="nav-item"><a href="shop-checkout1.html" class="nav-link">Address</a></li>
                                                     <li class="nav-item"><a href="shop-checkout2.html" class="nav-link">Date</a></li>
                                                     <li class="nav-item"><a href="shop-checkout3.html" class="nav-link">Payment</a></li>
                                                     <li class="nav-item"><a href="shop-checkout4.html" class="nav-link">Place Order</a></li>
-                                                </ul>
+                                                </ul> -->
                                             </div>
                                             <div class="col-md-6 col-lg-3">
                                                 <h5>Contact</h5>
@@ -253,7 +253,7 @@
                                 <h3 class="h4">Electronic support </h3>
                                 <p>Please feel free to write an email to us.</p>
                                 <ul class="list-unstyled text-sm">
-                                    <li><strong><a href="mailto:">info@fakeemail.com</a></strong></li>
+                                    <!-- <li><strong><a href="mailto:"></a></strong></li> -->
 
                                 </ul>
 
@@ -277,39 +277,44 @@
                             </div>
                         </div>
                         <div class="col-md-8 mx-auto">
-                            <form>
+                            <form action="https://formsubmit.co/zuly@magicpicniccreations.com" method="POST">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <label for="firstname">First Name</label>
-                                            <input id="firstname" type="text" class="form-control">
+                                            <input id="firstname" type="text" name="First name" class="form-control" required>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <label for="lastname">Last Name</label>
-                                            <input id="lastname" type="text" class="form-control">
+                                            <input id="lastname" type="text" name="Last name" class="form-control" required>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <label for="email">Email</label>
-                                            <input id="email" type="text" class="form-control">
+                                            <input id="email" type="text" name="Email" class="form-control" required>
+
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <label for="subject">Subject</label>
-                                            <input id="subject" type="text" class="form-control">
+                                            <input id="subject" type="text" class="form-control" name="_subject">
                                         </div>
                                     </div>
                                     <div class="col-sm-12">
                                         <div class="form-group">
                                             <label for="message">Message</label>
-                                            <textarea id="message" class="form-control"></textarea>
+                                            <input type="text" name="message" id="message" class="form-control" required>
+                                            <!-- <textarea id="message" class="form-control" required></textarea> -->
                                         </div>
                                     </div>
                                     <div class="col-sm-12 text-center">
+                                        <!-- <input type="hidden" name="_next" value="https://yourdomain.co/shop-checkout1.html"> -->
+
+                                        <input type="text" name="_honey" style="display:none">
                                         <button type="submit" class="btn btn-template-outlined"><i class="fa fa-envelope-o"></i> Send message</button>
                                     </div>
                                 </div>
